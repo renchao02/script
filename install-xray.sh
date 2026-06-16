@@ -53,7 +53,7 @@ echo "Detected arch: $ARCH -> $FILE"
 ### ===== INSTALL DEP =====
 echo "Installing dependencies..."
 apt update -y
-apt install -y curl unzip ca-certificates
+apt install -y curl unzip cron ca-certificates
 
 mkdir -p ${INSTALL_DIR}
 cd ${INSTALL_DIR}
